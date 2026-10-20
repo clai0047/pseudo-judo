@@ -31,3 +31,12 @@ transition: transform 2s;
 transform: scale(2);
 transition: transform 1s;
 }
+.shrink {
+transform: scale(.5);
+transition: transform 1s;
+}
+
+.special{
+transform: skew(45deg) rotateX(2turn);
+transition: transform 2s;
+}
