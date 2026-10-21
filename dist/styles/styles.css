@@ -34,3 +34,7 @@ transition: transform 1s;
 transform: scale(.5);
 transition: transform 1s;
 }
+.special{
+transform: skew(45deg) rotateX(2turn);
+transition: transform 2s;
+}
