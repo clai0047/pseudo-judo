@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.ninja {
+  display: block;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  transition: opacity 2s, transform 2s 1s;
+}
+
+.ninja img {
+  display: block;
+  width: 114px;
+  height: 150px;
+}
+
+.ninja:hover {
+opacity: 0.3;
+transition: 0.5s;
+transition-timing-function: ease-out;
+}
+
+.ninja:active {
+transform: translateY(-100px);
+transition: transform 0.5s;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.controls .btn {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  body {
+    grid-template-columns: 1fr;
+    overflow: auto;
+  }
+
+  .container {
+    min-height: 50vh;
+  }
+}
+
+.spin {
+transform: rotateY(2turn);
+transition: transform 2s;
+}
+
+.flip {
+transform: rotateX(2turn);
+transition: transform 2s;
+}
+.grow {
+transform: scale(2);
+transition: transform 1s;
+}
+.shrink {
+transform: scale(.5);
+transition: transform 1s;
+}
+.special{
+transform: skew(45deg) rotateX(2turn);
+transition: transform 2s;
+}
+
+/* prompt into chat in vs "trouble shoot whole page" as it wasnt loading up properly or forking to github*/
