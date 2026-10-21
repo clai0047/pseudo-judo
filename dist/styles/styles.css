@@ -1,0 +1,19 @@
+.ninja:hover {
+opacity: 0.3;
+transition: 0.5s;
+transition-timing-function: ease-out;
+}
+
+.ninja {
+transition: opacity 2s, transform 2s 1s;
+}
+
+.ninja:active {
+transform: translate(0, -20px);
+transition-duration: .5s;
+}
+
+.ninja:active {
+transform: translate(0,-100px);
+transition-duration: 1s;
+}
