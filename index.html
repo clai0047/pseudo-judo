@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Pseudo Judo</title>
+    <link rel='stylesheet' href='https://imdac.github.io/css/codepen/javascript-exercises.css'>
+<link rel='stylesheet' href='styles/styles.css'>
+
+  </head>
+    
+  <body>
+  <main class="container">
+ <button id="ninja" class="ninja"><img src="https://imdac.github.io/images/codepen/ninja.svg"></button>
+  <div id="controls" class="controls">
+    <button id="spin" class="btn">Spin</button>
+    <button id="flip" class="btn">Flip</button>
+    <button id="grow" class="btn">Grow</button>
+    <button id="shrink" class="btn">Shrink</button>
+    <button id="special" class="btn">Special</button>
+  </div>
+</main>
+<div class="instructions">
+<h2>Pseudo Judo</h2>
+<p>Use pseudo classes, the transition and the transform properties to animate the ninja's actions</p>
+<ol>
+<li>When mousing over the ninja, make him quickly fade out to near invisibility using <code>opacity</code> add <code>transition</code> properties and the <code>:hover</code> pseudo class on the <code>.ninja</code> class.<br><em>Example:</em> <code>.ninja:hover { opacity: 0.1; transition: 0.3s; }</code></li>
+<li>When mousing out of the ninja, make him slowly return to normal visibility using the <code>transition</code> property on the <code>.ninja</code> class.</li>
+<li>When clicking on the ninja, make him quickly jump and remain in the air using the <code>transform</code> and <code>transition</code> properties and the <code>:active</code> pseudo class on the <code>.ninja</code> class.</li>
+<li>When clicking the spin button, make the ninja spin on the vertical (y) axis by using the <code>transform</code> and <code>transition</code> properties on the <code>.spin</code> class.</li>
+<li>When clicking the flip button, make the ninja spin on the horizontal (x) axis by using the <code>transform</code> and <code>transition</code> properties on the <code>.flip</code> class.</li>
+<li>When clicking the grow button, make the ninja grow to twice his normal size by using the <code>transform</code> and <code>transition</code> properties on the <code>.grow</code> class.</li>
+<li>When clicking the shrink button, make the ninja shrink to half his normal size by using the <code>transform</code> and <code>transition</code> properties on the <code>.shrink</code> class.</li>
+<li>When clicking the special button, make the ninja do his &quot;special&quot; move. You decide what that is by applying different properties to the <code>.special</code> class.</li>
+</ol>
+    <script src='https://imdac.github.io/js/codepen/pseudo-judo.js'></script>
+  </body>
+  
+</html>
