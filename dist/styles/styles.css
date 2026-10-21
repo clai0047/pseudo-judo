@@ -17,3 +17,12 @@ transition-duration: .5s;
 transform: translate(0,-100px);
 transition-duration: 1s;
 }
+.spin {
+transform: rotateY(2turn);
+transition: transform 2s;
+}
+
+.flip {
+transform: rotateX(2turn);
+transition: transform 2s;
+}
